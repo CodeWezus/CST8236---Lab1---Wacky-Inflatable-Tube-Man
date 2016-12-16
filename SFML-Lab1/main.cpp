@@ -28,6 +28,8 @@ int main(int argc, char* argv)
 	bool keyHeld = false;
 
 	bool growing = true;
+
+	// bodyRotation is the amount the body will be able to rotate. rotateCount and rotateDirection are for determining which direction the object will rotate. Left or right.
 	int bodyRotation = 500;
 	int rotateCount = 0;
 	int rotateDirection = 0;
